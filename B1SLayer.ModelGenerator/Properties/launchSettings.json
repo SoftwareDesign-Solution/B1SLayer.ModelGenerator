@@ -1,0 +1,8 @@
+{
+  "profiles": {
+    "B1SLayer.ModelGenerator": {
+      "commandName": "Project",
+      "commandLineArgs": "--metadatafile servicelayer_metadata_v4.xml --namespace Example.Dto --outputdir dto --language cs"
+    }
+  }
+}
