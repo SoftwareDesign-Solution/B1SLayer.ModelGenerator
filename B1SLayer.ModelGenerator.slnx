@@ -1,3 +1,4 @@
 <Solution>
+  <Project Path="B1SLayer.ModelGenerator.Test/B1SLayer.ModelGenerator.Test.csproj" Id="4db85ea8-10e7-4fbf-b0ae-afb07e88aa63" />
   <Project Path="B1SLayer.ModelGenerator/B1SLayer.ModelGenerator.csproj" />
 </Solution>

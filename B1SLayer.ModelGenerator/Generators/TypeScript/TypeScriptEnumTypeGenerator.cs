@@ -23,7 +23,7 @@ namespace B1SLayer.ModelGenerator.Generators.TypeScript
         /// </summary>
         /// <param name="type">EnumType XElement</param>
         /// <returns>Generierter TypeScript Enum-Code</returns>
-        protected override string Generate(XElement type)
+        internal override string Generate(XElement type)
         {
             var name = type.Attribute("Name")!.Value;
             var members = type.Elements(EdmNs + "Member");

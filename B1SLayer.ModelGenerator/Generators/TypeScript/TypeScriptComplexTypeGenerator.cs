@@ -23,7 +23,7 @@ namespace B1SLayer.ModelGenerator.Generators.TypeScript
         /// </summary>
         /// <param name="type">ComplexType XElement</param>
         /// <returns>Generierter TypeScript Type-Code</returns>
-        protected override string Generate(XElement type)
+        internal override string Generate(XElement type)
             => GenerateType(
                 type.Attribute("Name")!.Value,
                 type.Elements(EdmNs + "Property"));

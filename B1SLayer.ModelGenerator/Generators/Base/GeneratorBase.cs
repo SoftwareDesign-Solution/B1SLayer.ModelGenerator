@@ -62,7 +62,7 @@ namespace B1SLayer.ModelGenerator.Generators.Base
         /// </summary>
         /// <param name="type">XElement des Typs</param>
         /// <returns>Generierter Code als String</returns>
-        protected abstract string Generate(XElement type);
+        internal abstract string Generate(XElement type);
 
         /// <summary>
         /// Gibt den vollständigen Dateipfad für die generierte Datei zurück

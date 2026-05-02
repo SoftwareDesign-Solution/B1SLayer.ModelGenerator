@@ -23,7 +23,7 @@ namespace B1SLayer.ModelGenerator.Generators.CSharp
         /// </summary>
         /// <param name="type">ComplexType XElement</param>
         /// <returns>Generierter C# Klassen-Code</returns>
-        protected override string Generate(XElement type)
+        internal override string Generate(XElement type)
             => GenerateClass(
                 type.Attribute("Name")!.Value,
                 type.Elements(EdmNs + "Property"));
